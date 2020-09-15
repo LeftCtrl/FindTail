@@ -49,7 +49,7 @@ namespace FindTail
       //Находим начало "петли"/дублирующийся элемент массива
       //(Это пункты 4-5 алгоритма или пункт (6) полного описания из Readme)
       //Сложность - O(2n) - два прохода по данным в худшем случае, когда "петля" начинается в конце массива
-      int tailStart = GetTailStart(testData, tailLength); //в худшем случае еще два прохода по данным
+      int tailStart = GetTailStart(testData, tailLength); 
       ShowLog("tail started from (answer): " + tailStart);
 
       //общая сложность O(4n) => O(n), константным значением можно пренебречь т.к. его влияние уменьшается с ростом n
