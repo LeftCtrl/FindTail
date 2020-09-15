@@ -113,7 +113,7 @@ namespace FindTail
     private static int[] GetData()
     {
       Random randomizer = new Random();
-      int maxNum = randomizer.Next(1, _maxNumber); //минимум - 1 (по условию задачи), максимум задан чтобы не затягивать работу улгоритма, но вообще может быть любым
+      int maxNum = randomizer.Next(1, _maxNumber); //минимум - 1 (по условию задачи), максимум задан чтобы не затягивать работу алгоритма, но вообще может быть любым
       int resultLength = maxNum + 1; //длина массива на 1 больше, чем теоретическое кол-во уникальных данных в массиве (по условию задачи)
 
       int[] result = new int[resultLength];
